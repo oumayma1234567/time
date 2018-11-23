@@ -1,0 +1,53 @@
+.App {
+background-image: url("https://images.wallpaperscraft.com/image/google_logo_wall_android_26167_720x1280.jpg" ); 
+background-size: contain;
+background-position: center calc(100% + 5px);
+background-repeat: no-repeat;
+width: 280px;
+height: 500px
+}
+
+.containertimer{
+  text-align: center;
+  width: 300px;
+}
+.styletimer{
+  width: 450px;
+  height: 450px;
+}
+
+.timer {
+  display: inline-block;
+  font-size: 50px;
+  width: 210px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+.time-text {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  font-size: 13px;
+ padding: 0px 20px 0px 17px;
+}
+.button{ display: flex;
+  justify-content: space-around;
+
+
+}
+.play{ 
+  background-color: #92490f;;
+  color:#dfa95ef7;
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  border: solid #723503c0;
+}
+.stop{
+  background-color: #92490f;
+  color:#dfa95ef7;
+  width: 80px;
+  height: 40px;
+  font-size: 18px;
+  border: solid #723503c0;
+}
